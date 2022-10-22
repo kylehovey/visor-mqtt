@@ -4,8 +4,25 @@
   "description": "MQTT-Only Version of Visor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=development node index.js",
+    "prod": "NODE_ENV=production node index.js",
+    "lint": "npx eslint .",
+    "prettier": "npx prettier --write ."
   },
   "author": "kylehovey",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@serialport/parser-readline": "^10.3.0",
+    "dotenv-flow": "^3.2.0",
+    "mqtt": "^4.3.7",
+    "serialport": "^10.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
 }
