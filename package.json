@@ -1,0 +1,11 @@
+{
+  "name": "visor-mqtt",
+  "version": "1.0.0",
+  "description": "MQTT-Only Version of Visor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kylehovey",
+  "license": "MIT"
+}
