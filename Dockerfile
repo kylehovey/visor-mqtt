@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
-FROM mhart/alpine-node:16
+FROM mhart/alpine-node:23
 
-WORKDIR /usr/src/app
+WORKDIR /opt/visor-mqtt
 
 RUN apk update
 RUN apk add --no-cache python3 py3-pip make gcc g++ linux-headers udev
