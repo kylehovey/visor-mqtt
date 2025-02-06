@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM mhart/alpine-node:23
+FROM node:23.0-alpine
 
 WORKDIR /opt/visor-mqtt
 
